@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto da Loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Desconto</h1>
+
+    <label>Peça:</label>
+    <select id="peca">
+        <option value="camisa">Camisa</option>
+        <option value="bermuda">Bermuda</option>
+        <option value="calca">Calça</option>
+    </select><br>
+
+    <label>Preço (R$):</label>
+    <input type="number" id="preco"><br>
+
+    <button onclick="calcularDesconto()">Calcular Desconto</button>
+    <p id="resultado"></p>
+</body>
+<script src="script.js"></script>
+</html>
